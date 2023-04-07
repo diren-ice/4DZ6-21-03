@@ -8,18 +8,14 @@
 }
 
 .app {
-<<<<<<< HEAD
-=======
   background-color: var(--background-color);
   color: var(--text-color);
->>>>>>> 4608ad95c75e93278bd3f919d176dc552756c208
   width: 100%;
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-<<<<<<< HEAD
   background-color: var(--background-color);
   color: var(--text-color);
 }
@@ -78,8 +74,6 @@ align-items: center
   height: 40px;
   background-color: var(--card-background);
   border-radius: 10px;
-=======
->>>>>>> 4608ad95c75e93278bd3f919d176dc552756c208
 }
 
 .container {
