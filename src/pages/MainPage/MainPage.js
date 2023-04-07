@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import {fetchQueryPokemons} from "../../components/API/fetchQuerryPokemon";
 import PokemonCard from "../../components/PokemonCsrd/PokemonCard";
-import {Pagination} from "../../components/Pagination";
+import Pagination from "../../components/Pagination/Pagination";
 import { Link } from 'react-router-dom'
 
 
