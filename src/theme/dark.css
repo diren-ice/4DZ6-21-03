@@ -1,0 +1,6 @@
+.app.dark {
+    --background-color: black;
+    --text-color: white;
+    --card-background: #8f626a;
+    --card-text: white;
+}
