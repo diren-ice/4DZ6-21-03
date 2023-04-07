@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { useEffect, useState } from 'react'
 import {Link} from "react-router-dom";
 import axios from "axios";
@@ -50,4 +50,4 @@ const PokemonCard = ({ pokemon })=> {
 }
 
 export default PokemonCard
->>>>>>> 4608ad95c75e93278bd3f919d176dc552756c208
+
