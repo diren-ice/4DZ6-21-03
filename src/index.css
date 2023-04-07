@@ -8,12 +8,18 @@
 }
 
 .app {
+<<<<<<< HEAD
+=======
+  background-color: var(--background-color);
+  color: var(--text-color);
+>>>>>>> 4608ad95c75e93278bd3f919d176dc552756c208
   width: 100%;
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+<<<<<<< HEAD
   background-color: var(--background-color);
   color: var(--text-color);
 }
@@ -72,4 +78,49 @@ align-items: center
   height: 40px;
   background-color: var(--card-background);
   border-radius: 10px;
+=======
+>>>>>>> 4608ad95c75e93278bd3f919d176dc552756c208
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pokemonList {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-bottom: 30px;
+}
+
+.button {
+  background-color: var(--card-background);
+  color: white;
+  width: 200px;
+  margin-top: 20px;
+  height: 50px;
+}
+
+.pokemonCard {
+  width: 250px;
+  height: 500px;
+  border: 1px solid white;
+  color: var(--card-text);
+  background-color: var(--card-background);
+  border-radius: 8px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.pokemonCard > img {
+width: 150px;
+height: 260px;
+
+}
+

@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 .app.light {
     --background-color: #8f626a;
     --text-color: black;
     --card-background: black;
     --card-text: white;
 }
+=======
+.app.light {
+    --background-color: #8f626a;
+    --text-color: black;
+    --card-background: black;
+    --card-text: white;
+}
+>>>>>>> 4608ad95c75e93278bd3f919d176dc552756c208

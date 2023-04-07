@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 .app.dark {
     --background-color: black;
     --text-color: white;
     --card-background: #8f626a;
     --card-text: white;
 }
+=======
+.app.dark {
+    --background-color: black;
+    --text-color: white;
+    --card-background: #8f626a;
+    --card-text: white;
+}
+>>>>>>> 4608ad95c75e93278bd3f919d176dc552756c208
