@@ -7,3 +7,13 @@ export const fetchQueryPokemons = async(limit, offset) => {
         return data;
     }catch(e){}
 }
+
+
+export const getPokemons = async(id) => {
+ try {
+    const { data } = await axios.get(baseURL + `pokemon/${id}`);
+    return data;
+ } catch (e) {
+    console.log(e);
+ }
+}
