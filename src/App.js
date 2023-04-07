@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 import MainPage from './pages/MainPage/MainPage'
 import PokemonInfo from "./pages/PokemonInfo/PokemonInfo";
 import { Route, Routes } from "react-router-dom"
 
-=======
+
 import { useEffect, useState } from "react";
 import { fetchQueryPokemons } from "../src/components/API/fetchQuerryPokemon";
 import PokemonCard from "../src/components/PokemonCsrd/PokemonCard";
@@ -24,16 +24,14 @@ const App = () => {
         setPokemonList(data?.results);
       });
   }, [offset])
->>>>>>> 4608ad95c75e93278bd3f919d176dc552756c208
 
   return (
-<<<<<<< HEAD
     <div>
       <Routes>
         <Route path='/' element={<MainPage/>}/>
           <Route path="/pokemon/:id" element={<PokemonInfo/>}  />
       </Routes>
-=======
+
     <div className={`app ${theme}`}>
 
       <button
@@ -46,7 +44,6 @@ const App = () => {
           {pokemonList?.map(pokemon => <PokemonCard pokemon={pokemon} />)}
         </div>
       </div>
->>>>>>> 4608ad95c75e93278bd3f919d176dc552756c208
     </div>
   )
 }
